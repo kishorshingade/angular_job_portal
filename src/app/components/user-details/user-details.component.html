@@ -1,0 +1,32 @@
+<section class="container-fluid">
+  <div class="container">
+    <div class="row mt-5 py-3 shadow-lg p-3 mb-5 bg-white rounded">
+      <div class="col-md-12">
+          <div class="d-flex">
+            <h6>id</h6>
+            <h6 style="margin-left: 3rem;">Candidate Name</h6>
+            <h6  style="margin-left: 3rem;">Experience</h6>
+            <h6  style="margin-left: 12rem;">EmailId</h6>
+            <h6 style="margin-left: 10rem;">Appply Position</h6>
+            <h6 style="margin-left: 5rem;">Technologies</h6>
+            <h6 class="mx-5">AppyDate</h6>
+          </div>
+       <div *ngFor="let data of applyDataList">
+        <div *ngFor="let Jobseeker of data.JobseekerId">
+          <div *ngFor="let jobin of data.jobinfo">
+            <div class="d-flex mt-5">
+              <h6>{{data.id}}</h6>
+              <h6 class="mx-5">{{Jobseeker.FullName}}</h6>
+              <h6 class="mx-5">{{Jobseeker.Experience}}</h6>
+              <h6 class="mx-5">{{Jobseeker.EmailId}}</h6>
+              <h6 class="mx-5">{{jobin.JobName}}</h6>
+              <h6 class="mx-4">{{jobin.Technologies}}</h6>
+              <h6 class="mx-5">{{data.AppyDate | date}}</h6>
+            </div>
+          </div>
+        </div>
+       </div>
+                </div>
+    </div>
+  </div>
+</section>

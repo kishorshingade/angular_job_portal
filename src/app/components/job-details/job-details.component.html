@@ -1,0 +1,17 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+       <div *ngFor="let d of jobDetailsData">
+      <p>{{d.JobName}}</p>
+      <p>{{d.Technologies}}</p>
+      <p>{{d.Category}}</p>
+      <p>{{d.CompanyName}}</p>
+      <p>{{d.Experience}}</p>
+
+       </div>
+       <button *ngIf="!isLoggedIn" class="btn btn-primary mx-2 mt-2">Log to Apply</button>
+       <button *ngIf="isLoggedIn" class="btn btn-primary mx-2 mt-2" (click)="apply()">Apply</button>
+    </div>
+  </div>
+</div>

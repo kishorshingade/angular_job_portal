@@ -1,0 +1,70 @@
+<div class="container-fluid">
+  <div class="row py-4 d-flex align-items-center justify-content-center bg-light">
+    <div class="col-md-6  py-4">
+      <div class="conainer">
+        <div>
+          <div class='shadow px-5 pt-3 pb-5 rounded py-4 mt-4'>
+              <h3 class="text-center">Post a Job</h3>
+              <form action="" #myForm="ngForm" (ngSubmit)="CreateJob(myForm.value)">
+              <div class='mb-2'>
+                  <label for="name">JobName</label>
+                  <input type="text" name="JobName" placeholder="Enter job name" class="form-control"
+                  ngModel  required>
+              </div>
+              <div class='mb-2'>
+                <label for="name">CompanyName</label>
+                <input type="text" name="CompanyName" placeholder="Enter CompanyName name" class="form-control"
+                ngModel  required>
+            </div>
+              <div class='mb-2'>
+                <label for="name">job Category</label>
+                <input type="text" name="Category" placeholder="Enter job Category" class="form-control"
+                ngModel  required>
+            </div>
+              <div class='mb-2'>
+                <label for="name">Technologies</label>
+                <input type="text" name="Technologies" placeholder="Enter Technologies" class="form-control"
+                ngModel  required>
+            </div>
+            <div class='mb-2'>
+              <label for="name">Package</label>
+              <input type="text" name="Package" placeholder="Enter Package" class="form-control"
+              ngModel required>
+          </div>
+          <div class="mb-2">
+            <label for="">Location</label>
+            <input type="text" name="Location" placeholder="Enter Location" class="form-control"
+            ngModel required>
+          </div>
+          <div class='mb-2'>
+            <label for="name">JobDescription</label>
+            <input type="text" name="MobileNo" placeholder="Enter JobDescription" class="form-control"
+            ngModel required>
+        </div>
+        <div class="mb-2">
+          <label for="">Experience</label>
+          <select name="Experience" ngModel class="form-control">
+            <option value="" disabled selected>Select Experience </option>
+            <option value="Fresher-to-1year">Fresher-to-1year</option>
+            <option value="1-year">1.5-years</option>
+            <option value="1.5-year">1-years</option>
+            <option value="2.5-year">2.5-years</option>
+            <option value="3-year">3-years</option>
+            <option value="3.5-year">3.5-years</option>
+            <option value="4-year">4-years</option>
+            <option value="4.5-year">4.5-years</option>
+            <option value="5-year">5-years</option>
+          </select>
+        </div>
+
+      <button type="submit" class="btn btn-primary">Create Job</button>
+      </form>
+
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+

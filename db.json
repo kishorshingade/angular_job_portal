@@ -1,0 +1,481 @@
+{
+  "Employer": [
+    {
+      "id": 1,
+      "role": "string",
+      "CompanyName": "string",
+      "EmailId": "string",
+      "Password": "string",
+      "PhoneNo": "string",
+      "LogoURL": "string",
+      "City": "string",
+      "State": "string",
+      "CompanyAddress": "string"
+    },
+    {
+      "role": "Employer",
+      "CompanyName": "wipro",
+      "EmailId": "kk",
+      "Password": "kk",
+      "PhoneNo": "llllll",
+      "LogoURL": "mmmmmm",
+      "City": "mmmmmmm",
+      "State": "pppppp",
+      "CompanyAddress": "mmm",
+      "id": 2
+    }
+  ],
+  "jobseeker": [
+    {
+      "id": 1,
+      "role": "string",
+      "FullName": "string",
+      "EmailId": "string",
+      "Password": "string",
+      "MobileNo": "string",
+      "ExperienceStatus": "string",
+      "ResumeUrl": "string"
+    },
+    {
+      "role": "jobseeker",
+      "FullName": "kllll",
+      "EmailId": "k",
+      "Password": "k",
+      "MobileNo": "9999",
+      "ExperienceStatus": "fff",
+      "id": 2
+    },
+    {
+      "Experience": "4-year",
+      "role": "jobseeker",
+      "FullName": "kishor shingade",
+      "EmailId": "kishorshingade619@gmail.com",
+      "Password": "ks",
+      "MobileNo": "9139766939",
+      "id": 3
+    },
+    {
+      "Experience": "Fresher",
+      "role": "jobseeker",
+      "FullName": "akib",
+      "EmailId": "lawda@123.com",
+      "Password": "lll",
+      "MobileNo": "9139766939",
+      "id": 4
+    }
+  ],
+  "jobListing": [
+    {
+      "JobName": "Full Stack Developer",
+      "Category": "it sector",
+      "Technologies": "MEAN/MERN",
+      "CompanyName": "wipro",
+      "Experience": "5-year",
+      "Package": "10 LPA",
+      "Location": "Pune",
+      "CreatdDate": "2024-01-08T10:09:28.172Z",
+      "id": 1
+    },
+    {
+      "JobName": "Full Stack Developer",
+      "Category": "it sector",
+      "Technologies": "MEAN/MERN",
+      "CompanyName": "wipro",
+      "Experience": "5-year",
+      "Package": "10 LPA",
+      "Location": "Pune",
+      "CreatdDate": "2024-01-08T10:09:28.172Z",
+      "id": 2
+    },
+    {
+      "JobName": "Full Stack Developer",
+      "Category": "it sector",
+      "Technologies": "MEAN/MERN",
+      "CompanyName": "wipro",
+      "Experience": "5-year",
+      "Package": "10 LPA",
+      "Location": "Pune",
+      "CreatdDate": "2024-01-08T10:09:38.305Z",
+      "id": 3
+    }
+  ],
+  "applyData": [
+    {
+      "jobinfo": [
+        {
+          "JobName": "Full Stack Developer",
+          "Category": "it sector",
+          "Technologies": "MEAN/MERN",
+          "CompanyName": "wipro",
+          "Experience": "5-year",
+          "Package": "10 LPA",
+          "Location": "Pune",
+          "CreatdDate": "2024-01-08T10:09:28.172Z",
+          "id": 1
+        }
+      ],
+      "JobseekerId": [
+        {
+          "Experience": "4-year",
+          "role": "jobseeker",
+          "FullName": "kishor shingade",
+          "EmailId": "kishorshingade619@gmail.com",
+          "Password": "ks",
+          "MobileNo": "9139766939",
+          "id": 3
+        }
+      ],
+      "Applicationstatus": "new",
+      "AppyDate": "2024-01-11T08:31:19.638Z",
+      "id": 3
+    },
+    {
+      "jobinfo": [
+        {
+          "JobName": "Full Stack Developer",
+          "Category": "it sector",
+          "Technologies": "MEAN/MERN",
+          "CompanyName": "wipro",
+          "Experience": "5-year",
+          "Package": "10 LPA",
+          "Location": "Pune",
+          "CreatdDate": "2024-01-08T10:09:28.172Z",
+          "id": 2
+        }
+      ],
+      "JobseekerId": [
+        {
+          "Experience": "4-year",
+          "role": "jobseeker",
+          "FullName": "kishor shingade",
+          "EmailId": "kishorshingade619@gmail.com",
+          "Password": "ks",
+          "MobileNo": "9139766939",
+          "id": 3
+        }
+      ],
+      "Applicationstatus": "new",
+      "AppyDate": "2024-01-11T08:31:32.247Z",
+      "id": 4
+    },
+    {
+      "jobinfo": [
+        {
+          "JobName": "Full Stack Developer",
+          "Category": "it sector",
+          "Technologies": "MEAN/MERN",
+          "CompanyName": "wipro",
+          "Experience": "5-year",
+          "Package": "10 LPA",
+          "Location": "Pune",
+          "CreatdDate": "2024-01-08T10:09:28.172Z",
+          "id": 1
+        }
+      ],
+      "JobseekerId": [
+        {
+          "Experience": "4-year",
+          "role": "jobseeker",
+          "FullName": "kishor shingade",
+          "EmailId": "kishorshingade619@gmail.com",
+          "Password": "ks",
+          "MobileNo": "9139766939",
+          "id": 3
+        }
+      ],
+      "Applicationstatus": "new",
+      "AppyDate": "2024-01-11T08:35:21.559Z",
+      "id": 5
+    },
+    {
+      "jobinfo": [
+        {
+          "JobName": "Full Stack Developer",
+          "Category": "it sector",
+          "Technologies": "MEAN/MERN",
+          "CompanyName": "wipro",
+          "Experience": "5-year",
+          "Package": "10 LPA",
+          "Location": "Pune",
+          "CreatdDate": "2024-01-08T10:09:28.172Z",
+          "id": 1
+        }
+      ],
+      "JobseekerId": [
+        {
+          "Experience": "4-year",
+          "role": "jobseeker",
+          "FullName": "kishor shingade",
+          "EmailId": "kishorshingade619@gmail.com",
+          "Password": "ks",
+          "MobileNo": "9139766939",
+          "id": 3
+        }
+      ],
+      "Applicationstatus": "new",
+      "AppyDate": "2024-01-11T08:37:23.136Z",
+      "id": 6
+    },
+    {
+      "jobinfo": [
+        {
+          "JobName": "Full Stack Developer",
+          "Category": "it sector",
+          "Technologies": "MEAN/MERN",
+          "CompanyName": "wipro",
+          "Experience": "5-year",
+          "Package": "10 LPA",
+          "Location": "Pune",
+          "CreatdDate": "2024-01-08T10:09:28.172Z",
+          "id": 1
+        }
+      ],
+      "JobseekerId": [
+        {
+          "Experience": "4-year",
+          "role": "jobseeker",
+          "FullName": "kishor shingade",
+          "EmailId": "kishorshingade619@gmail.com",
+          "Password": "ks",
+          "MobileNo": "9139766939",
+          "id": 3
+        }
+      ],
+      "Applicationstatus": "new",
+      "AppyDate": "2024-01-12T01:25:04.938Z",
+      "id": 7
+    },
+    {
+      "jobinfo": [
+        {
+          "JobName": "Full Stack Developer",
+          "Category": "it sector",
+          "Technologies": "MEAN/MERN",
+          "CompanyName": "wipro",
+          "Experience": "5-year",
+          "Package": "10 LPA",
+          "Location": "Pune",
+          "CreatdDate": "2024-01-08T10:09:28.172Z",
+          "id": 2
+        }
+      ],
+      "JobseekerId": [
+        {
+          "role": "jobseeker",
+          "FullName": "kllll",
+          "EmailId": "k",
+          "Password": "k",
+          "MobileNo": "9999",
+          "ExperienceStatus": "fff",
+          "id": 2
+        }
+      ],
+      "Applicationstatus": "new",
+      "AppyDate": "2024-01-24T06:13:32.594Z",
+      "id": 8
+    },
+    {
+      "jobinfo": [
+        {
+          "JobName": "Full Stack Developer",
+          "Category": "it sector",
+          "Technologies": "MEAN/MERN",
+          "CompanyName": "wipro",
+          "Experience": "5-year",
+          "Package": "10 LPA",
+          "Location": "Pune",
+          "CreatdDate": "2024-01-08T10:09:38.305Z",
+          "id": 3
+        }
+      ],
+      "JobseekerId": [
+        {
+          "role": "jobseeker",
+          "FullName": "kllll",
+          "EmailId": "k",
+          "Password": "k",
+          "MobileNo": "9999",
+          "ExperienceStatus": "fff",
+          "id": 2
+        }
+      ],
+      "Applicationstatus": "new",
+      "AppyDate": "2024-01-25T03:35:37.211Z",
+      "id": 9
+    },
+    {
+      "jobinfo": [
+        {
+          "JobName": "Full Stack Developer",
+          "Category": "it sector",
+          "Technologies": "MEAN/MERN",
+          "CompanyName": "wipro",
+          "Experience": "5-year",
+          "Package": "10 LPA",
+          "Location": "Pune",
+          "CreatdDate": "2024-01-08T10:09:28.172Z",
+          "id": 1
+        }
+      ],
+      "JobseekerId": [
+        {
+          "role": "jobseeker",
+          "FullName": "kllll",
+          "EmailId": "k",
+          "Password": "k",
+          "MobileNo": "9999",
+          "ExperienceStatus": "fff",
+          "id": 2
+        }
+      ],
+      "Applicationstatus": "new",
+      "AppyDate": "2024-01-25T03:38:45.229Z",
+      "id": 10
+    },
+    {
+      "jobinfo": [
+        {
+          "JobName": "Full Stack Developer",
+          "Category": "it sector",
+          "Technologies": "MEAN/MERN",
+          "CompanyName": "wipro",
+          "Experience": "5-year",
+          "Package": "10 LPA",
+          "Location": "Pune",
+          "CreatdDate": "2024-01-08T10:09:28.172Z",
+          "id": 1
+        }
+      ],
+      "JobseekerId": [
+        {
+          "role": "jobseeker",
+          "FullName": "kllll",
+          "EmailId": "k",
+          "Password": "k",
+          "MobileNo": "9999",
+          "ExperienceStatus": "fff",
+          "id": 2
+        }
+      ],
+      "Applicationstatus": "new",
+      "AppyDate": "2024-01-25T03:38:45.229Z",
+      "id": 11
+    },
+    {
+      "jobinfo": [
+        {
+          "JobName": "Full Stack Developer",
+          "Category": "it sector",
+          "Technologies": "MEAN/MERN",
+          "CompanyName": "wipro",
+          "Experience": "5-year",
+          "Package": "10 LPA",
+          "Location": "Pune",
+          "CreatdDate": "2024-01-08T10:09:28.172Z",
+          "id": 1
+        }
+      ],
+      "JobseekerId": [
+        {
+          "role": "jobseeker",
+          "FullName": "kllll",
+          "EmailId": "k",
+          "Password": "k",
+          "MobileNo": "9999",
+          "ExperienceStatus": "fff",
+          "id": 2
+        }
+      ],
+      "Applicationstatus": "new",
+      "AppyDate": "2024-01-25T03:38:45.229Z",
+      "id": 12
+    },
+    {
+      "jobinfo": [
+        {
+          "JobName": "Full Stack Developer",
+          "Category": "it sector",
+          "Technologies": "MEAN/MERN",
+          "CompanyName": "wipro",
+          "Experience": "5-year",
+          "Package": "10 LPA",
+          "Location": "Pune",
+          "CreatdDate": "2024-01-08T10:09:28.172Z",
+          "id": 1
+        }
+      ],
+      "JobseekerId": [
+        {
+          "role": "jobseeker",
+          "FullName": "kllll",
+          "EmailId": "k",
+          "Password": "k",
+          "MobileNo": "9999",
+          "ExperienceStatus": "fff",
+          "id": 2
+        }
+      ],
+      "Applicationstatus": "new",
+      "AppyDate": "2024-01-25T03:38:45.229Z",
+      "id": 13
+    },
+    {
+      "jobinfo": [
+        {
+          "JobName": "Full Stack Developer",
+          "Category": "it sector",
+          "Technologies": "MEAN/MERN",
+          "CompanyName": "wipro",
+          "Experience": "5-year",
+          "Package": "10 LPA",
+          "Location": "Pune",
+          "CreatdDate": "2024-01-08T10:09:28.172Z",
+          "id": 1
+        }
+      ],
+      "JobseekerId": [
+        {
+          "Experience": "Fresher",
+          "role": "jobseeker",
+          "FullName": "akib",
+          "EmailId": "lawda@123.com",
+          "Password": "lll",
+          "MobileNo": "9139766939",
+          "id": 4
+        }
+      ],
+      "Applicationstatus": "new",
+      "AppyDate": "2024-02-28T00:12:36.728Z",
+      "id": 14
+    },
+    {
+      "jobinfo": [
+        {
+          "JobName": "Full Stack Developer",
+          "Category": "it sector",
+          "Technologies": "MEAN/MERN",
+          "CompanyName": "wipro",
+          "Experience": "5-year",
+          "Package": "10 LPA",
+          "Location": "Pune",
+          "CreatdDate": "2024-01-08T10:09:28.172Z",
+          "id": 1
+        }
+      ],
+      "JobseekerId": [
+        {
+          "role": "jobseeker",
+          "FullName": "kllll",
+          "EmailId": "k",
+          "Password": "k",
+          "MobileNo": "9999",
+          "ExperienceStatus": "fff",
+          "id": 2
+        }
+      ],
+      "Applicationstatus": "new",
+      "AppyDate": "2024-04-07T00:54:08.748Z",
+      "id": 15
+    }
+  ]
+}
